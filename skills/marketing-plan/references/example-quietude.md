@@ -141,10 +141,10 @@ This is what we're starting from — team, budget, what's already in motion, wha
 | Quietude eye mask (5K in stock) | Selling | The wedge product. Hardware → app activation path. |
 | 38% 12-month retention (vs. category avg 20%) | Real | Headline metric. Belongs everywhere. |
 | Customer.io + Shopify integration | Wired | The lifecycle infrastructure exists. Flows just need to ship. |
-| 4 GitHub repos for context + product | Set up | `quietude-context` (shared brain), `quietude-promo`, `olo` (app), `mira` (AI), `quietude-api` |
+| 4 GitHub repos for context + product | Set up | `quietude-context` (shared brain), `quietude-promo`, `quietude-app` (app), `mira` (AI), `quietude-api` |
 | Alex's Sound Philosophy doc | Working doc | Linkable position paper once polished and published. |
 | ~5 inbound ambassadors waiting | Inbound | Referral program ready to launch — no demand-gen needed for v1. |
-| EHA B2B install (€257K, July deadline) | In-flight | First flagship venue. Reference case once installed. |
+| Aurora B2B install (~€250K, July deadline) | In-flight | First flagship venue. Reference case once installed. |
 | Notion Knowledge Directory | Live | Internal context. |
 | Customer.io MCP (Claude integration) | Validated on kickoff | Non-technical team can ship flows independently. |
 
@@ -307,7 +307,7 @@ What's the current trial structure? Length, paywall trigger, intro pricing? When
 ### Skills + tools
 
 - **Skills:** `onboarding`, `signup`, `cro`, `cro`, `paywalls`, `popups`, `copywriting`, `copy-editing`, `copycraft`, `marketing-website-design`, `ab-testing`, `marketing-psychology`
-- **MCPs / APIs:** App Store Connect (manual + `dev-browser` for screenshot automation), GitHub MCP (`olo` app repo for onboarding code), Figma / Pencil MCP (for onboarding screen design), Customer.io MCP (for any in-app/email coordination), GA4 MCP (activation events)
+- **MCPs / APIs:** App Store Connect (manual + `dev-browser` for screenshot automation), GitHub MCP (`quietude-app` app repo for onboarding code), Figma / Pencil MCP (for onboarding screen design), Customer.io MCP (for any in-app/email coordination), GA4 MCP (activation events)
 
 ---
 
@@ -428,7 +428,7 @@ Hardware referral is rare and powerful. *"Send a friend an Quietude eye mask. Th
 | Quietude App + Mira | ~$30/mo | 145 paid subs (App Store snapshot 2026-05-16) |
 | Quietude Eye Mask | ~$45 | 5K in stock, longevity-influencer PR-driven sales |
 | Quietude Audio (speakers) | ~$7,500 | Niche, founder-led |
-| Quietude Spaces (B2B install) | $50–200K | EHA flagship in-flight (€257K), pipeline of 4 venues |
+| Quietude Spaces (B2B install) | $50–200K | Aurora flagship in-flight (~€250K), pipeline of 4 venues |
 | Quietude Experiences (events) | Varies | 15K+ historical participants |
 | Quietude Guides | Rev share | Not yet operational |
 
@@ -454,7 +454,7 @@ The current page underperforms what it could. Add: SEO targeting ("weighted slee
 Amazon takes margin but is its own discovery engine. Test as v2 distribution if Shopify volume validates.
 
 **Move 6 — B2B install case studies + sales material.**
-Alex owns B2B sales but marketing supports with: post-install case studies (EHA as the flagship), `/partner` page rewrite in voice, Pillar 4 SEO content. Each B2B install is a ~$430K/year recurring + reference-case multiplier.
+Alex owns B2B sales but marketing supports with: post-install case studies (Aurora as the flagship), `/partner` page rewrite in voice, Pillar 4 SEO content. Each B2B install is a ~$430K/year recurring + reference-case multiplier.
 
 **Move 7 — Data licensing (long-term, flag for ops stack).**
 Per seed deck Y10–15 value pool: $100–160M/yr. Not immediate revenue. Belongs in the 24-month strategic agenda. Flag here so we don't lose sight.
@@ -463,7 +463,7 @@ Per seed deck Y10–15 value pool: $100–160M/yr. Not immediate revenue. Belong
 
 - Weeks 1–2: Pricing audit. Reconcile implied vs. listed MRR.
 - Weeks 3–4: Hardware → app activation flow audited (also Retention move 6).
-- Weeks 5–8: Eye mask Shopify page rewrite + SEO optimization + Judge.me + return policy. EHA case study scaffolded for post-install.
+- Weeks 5–8: Eye mask Shopify page rewrite + SEO optimization + Judge.me + return policy. Aurora case study scaffolded for post-install.
 - Weeks 9–12: Annual plan default test scoped.
 
 ### 12-month revenue outlook
@@ -572,7 +572,7 @@ Quarterly milestones with funding-stage capability unlocks named explicitly.
 - Flow 2 (onboarding emails) shipped
 - Mira post-session reflection in production
 - 15–25 ambassadors active
-- First B2B install reference case (EHA) published
+- First B2B install reference case (Aurora) published
 - Annual plan default tested
 
 **KPI targets:** Paid CAC < $50 blended. Organic traffic 1,500–3,500/mo. Retention curves visibly improving.
@@ -639,7 +639,7 @@ The fCMO's job is to:
 | Stage | Existing connections at Quietude | Tooling layer (Casey's fCMO stack) |
 |---|---|---|
 | **Acquisition** | App Store Connect (manual), Shopify, GA4 (in progress), Notion | Ahrefs API, DataForSEO API, Typefully MCP, GitHub MCP (`quietude-promo`), `agent-browser`, `defuddle` |
-| **Activation** | App Store Connect, Customer.io, Shopify | App Store Connect (via `dev-browser` for screenshot automation), Figma / Pencil MCP, GitHub MCP (`olo` app repo), Stripe MCP |
+| **Activation** | App Store Connect, Customer.io, Shopify | App Store Connect (via `dev-browser` for screenshot automation), Figma / Pencil MCP, GitHub MCP (`quietude-app` app repo), Stripe MCP |
 | **Retention** | **Customer.io (with Claude MCP — validated on kickoff)**, Stripe, Shopify | Customer.io MCP, Stripe MCP, GA4 MCP |
 | **Referral** | Dub.co, Stripe | Dub.co, Stripe MCP, GitHub MCP (per-ambassador landing pages), Customer.io MCP |
 | **Revenue** | Stripe, Shopify, Customer.io | Stripe MCP, Shopify, GA4 MCP, Notion |
@@ -750,7 +750,7 @@ This is the exhaustive menu. The plan above is the curated path. When we move to
 | 55 | Influencer Whitelisting | Run ads through ambassador / Guide accounts for authenticity |
 | 57 | Expert Networks | Quietude Guides program IS this — certified hosts who can market |
 | 60 | Pixel Sharing | Standard once paid is firing |
-| 61 | Shared Slack Channels | Partner venue Slacks (EHA, Moonrise, Alchemy Springs) |
+| 61 | Shared Slack Channels | Partner venue Slacks (Aurora, Lumen, Stillwater) |
 | 63 | Integration Marketing | Apple Health (HRV data), Oura, Whoop — co-marketing |
 | 66 | Virtual Summits | Quietude participates or hosts |
 | 68 | Local Meetups | Cities with high ICP density (SF, NYC, LA, Austin) |
